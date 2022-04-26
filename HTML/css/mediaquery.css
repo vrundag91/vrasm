@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 240 + 320px */
+@media screen and (max-width: 400px){
+	
+	.user-bar{float:left; text-align:center; width:100%;}
+	.contact-top{margin-bottom:20px;}
+    .navigation-section{height:50px;}
+	
+}
+/* 480px */
+@media screen and (min-width: 401px) and (max-width: 767px) {
+
+    .user-bar{float:left; text-align:center; width:100%;}
+	.contact-top{margin-bottom:20px;}
+    .navigation-section{height:50px;}
+
+}
+
+/* 768px */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.navigation-section{height:50px;}
+
+	
+}
+/* 960px */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+		
+@media (min-width: 1200px) {
+
+}
